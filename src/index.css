@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* color and styling */
+:root{
+  --primaryColor:rgb(43,80,104);
+  --secondaryColor:rgb(74,107,135);
+  --gradientColor:linear-gradient(to right, rgb(43,80,104), rgb(74,107,135));
+  --textColor:rgb(170,181,189);
+  --inputColor:rgb(239,239,239);
+  --bodyColor:rgb(240,240,246);
+  --cardBG:rgb(225,225,235);
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.icon{
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+body{
+  background:var(--bodyColor);
+}

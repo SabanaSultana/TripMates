@@ -1,0 +1,143 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  color: white;
+  z-index: 1000;
+  transition: background-color 0.3s ease; 
+}
+
+.scrolled {
+  background-color: rgba(43,80,104, 0.4); 
+}
+
+
+.logo h1 {
+  display: flex;
+  align-items: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: black;
+}
+
+.logo svg {
+  margin-right: 0.5rem;
+  color: black;
+}
+
+.navitems {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-top:1rem;
+}
+
+.navlists {
+  display: flex;
+  list-style: none;
+}
+
+.navitem {
+  margin: 0 1rem;
+}
+
+.navlink {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 0.2rem 0.7rem;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.toggleNavbar {
+  display: none;
+}
+
+.closeNavbar {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .navitems {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--secondaryColor); 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 999; 
+  }
+
+  .navitems.open {
+    transform: translateX(0);
+  }
+
+  .navlists {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navitem {
+    margin: 1rem 0;
+  }
+
+  .btn {
+    margin-top: 1rem;
+    align-self: center;
+  }
+
+  .closeNavbar {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: black;
+    cursor: pointer; 
+  }
+
+  .toggleNavbar {
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer; 
+  }
+
+  .closeNavbar .icon {
+    font-size: 2rem; 
+    color: black;
+  }
+}
