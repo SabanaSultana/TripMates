@@ -101,7 +101,7 @@ const destinationData = [
     id: 10,
     title: "Gangtok",
     image:
-      "https://img.freepik.com/premium-photo/gangtok-ropeway-india_78361-2630.jpg?w=900g",
+      "https://travelgangtok.com/uploads/destinations/DT-3618-4229/gangtok.jpg",
     location: "Sikkim, India",
     brief_description:
       "Gangtok, the capital of Sikkim, is known for its vibrant culture and stunning mountain views.",
@@ -130,4 +130,18 @@ const destinationData = [
     date: "2024-12-01",
     price: 2000,
   },
+  {
+    id: 12,
+    title: "Meghalaya",
+    image:
+      "https://tds-images.thedailystar.net/sites/default/files/feature/images/meghalaya_2.jpg",
+    location: "Meghalaya, India",
+    brief_description:
+      "Meghalaya is known for its stunning landscapes and abundant rainfall..",
+    date: "2024-12-01",
+    price: 2000,
+  },
 ];
+
+
+export default destinationData;

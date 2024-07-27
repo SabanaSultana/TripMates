@@ -33,17 +33,18 @@
   padding: 10px 30px;
   font-size: 1rem;
   cursor: pointer;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.929);
   border: none;
   border-radius: 5px;
-  color: black;
+  color:  var(--secondaryColor);
   transition: background-color 0.3s ease;
   text-transform: uppercase;
+  font-weight:bold;
 }
 
 .header-container button:hover {
-  background-color: var(--textColor);
-  color: var(--primaryColor);
+  background-color: var(--primaryColor);
+  color:black;
 }
 
 .header-container button:focus {

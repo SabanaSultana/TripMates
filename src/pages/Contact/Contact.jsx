@@ -27,13 +27,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="background">
-        <video
-          src="https://cdn.pixabay.com/video/2020/01/25/31569-387675206_large.mp4"
-          type="video/mp4"
-          autoPlay
-          loop
-          muted
-        />
+        <img src="https://coolwallpapers.me/picsup/2602132-blue-latest-wallpaper-free-download.jpg" />
       </div>
       <div className="location-details">Location Details</div>
 

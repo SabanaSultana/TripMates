@@ -13,9 +13,9 @@
 
 /* color and styling */
 :root{
-  --primaryColor:rgb(43,80,104);
-  --secondaryColor:rgb(74,107,135);
-  --gradientColor:linear-gradient(to right, rgb(43,80,104), rgb(74,107,135));
+  --primaryColor:rgb(80,192,153);
+  --secondaryColor:rgb(7,109,123);
+  --gradientColor:linear-gradient(45deg, rgb(80,192,153), rgb(7,109,123));
   --textColor:rgb(170,181,189);
   --inputColor:rgb(239,239,239);
   --bodyColor:rgb(240,240,246);
