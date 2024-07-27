@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="background">
-        <img src="https://coolwallpapers.me/picsup/2602132-blue-latest-wallpaper-free-download.jpg" />
+        <img src="https://wallpapercave.com/wp/wp7050216.jpg" />
       </div>
       <div className="location-details">Location Details</div>
 

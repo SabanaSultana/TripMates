@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="logo">
         <h1>
           <MdModeOfTravel className="icon" />
-          TripMates
+          TripMate
         </h1>
       </div>
       <div className={`navitems ${isOpen ? "open" : ""}`}>
