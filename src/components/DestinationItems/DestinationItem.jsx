@@ -17,7 +17,7 @@ const DestinationItem = ({
       <p>{location}</p>
       <p>{brief_description}</p>
       <p>Date: {date}</p>
-      <p>Price: ${price}</p>
+      <p className="price">Price: ${price}</p>
     </div>
   );
 };

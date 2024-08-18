@@ -131,7 +131,7 @@ const destinationData = [
     price: 2000,
   },
   {
-    id: 12,
+    id: 13,
     title: "Meghalaya",
     image:
       "https://tds-images.thedailystar.net/sites/default/files/feature/images/meghalaya_2.jpg",

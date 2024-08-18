@@ -11,7 +11,7 @@
 }
 
 .scrolled {
-  background-color: rgba(43,80,104, 0.4); 
+  background: linear-gradient(to bottom, rgb(90, 167, 140), rgb(6, 124, 140));
 }
 
 

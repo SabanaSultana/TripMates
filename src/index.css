@@ -16,6 +16,7 @@
   --primaryColor:rgb(80,192,153);
   --secondaryColor:rgb(7,109,123);
   --gradientColor:linear-gradient(45deg, rgb(80,192,153), rgb(7,109,123));
+  --gradientColorSecond:linear-gradient(45deg, rgb(132, 209, 182), rgb(7,109,123));
   --textColor:rgb(170,181,189);
   --inputColor:rgb(239,239,239);
   --bodyColor:rgb(240,240,246);

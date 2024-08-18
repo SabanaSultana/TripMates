@@ -1,0 +1,29 @@
+.map {
+  padding: 1.6rem;
+  /* background: url("https://images.pexels.com/photos/2850287/pexels-photo-2850287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+  color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.map h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.784);
+  margin-bottom: 1.3rem;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  align-items: center;
+}
+.map-element {
+  flex: 1;
+}
+
+.location p {
+  line-height: 1.9rem;
+  letter-spacing: 0.04rem;
+}
